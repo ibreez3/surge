@@ -1,0 +1,35 @@
+# 1. 内网IP段：10.1.*.* （CIDR表示为 10.1.0.0/16）
+IP-CIDR,10.1.0.0/16,DIRECT,no-resolve
+
+# 2. 阿里云相关域名
+DOMAIN-SUFFIX,aliyun.com,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,aliyun-inc.com,DIRECT
+DOMAIN-SUFFIX,aliyuncdn.com,DIRECT
+DOMAIN-SUFFIX,aliyunimg.com,DIRECT
+DOMAIN-SUFFIX,aliyunvideo.com,DIRECT
+DOMAIN-SUFFIX,aliyundrive.com,DIRECT
+DOMAIN-SUFFIX,aliyunlive.com,DIRECT
+
+DOMAIN-SUFFIX,glm.cn,DIRECT
+DOMAIN-SUFFIX,zhipuai.cn,DIRECT
+DOMAIN-SUFFIX,zhipu-ai.com,DIRECT
+
+DOMAIN-SUFFIX,minimax.com,DIRECT
+DOMAIN-SUFFIX,minimax.chat,DIRECT
+# MINIMAX 关联域名
+DOMAIN-SUFFIX,miniapps.cn,DIRECT
+
+DOMAIN-SUFFIX,bytedance.com,DIRECT
+DOMAIN-SUFFIX,bytedomain.com,DIRECT
+DOMAIN-SUFFIX,douyin.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+# 火山引擎（字节旗下）
+DOMAIN-SUFFIX,volcengine.com,DIRECT
+# 飞书（字节旗下）
+DOMAIN-SUFFIX,feishu.cn,DIRECT
+# 飞书国际版
+DOMAIN-SUFFIX,larksuite.com,DIRECT
+DOMAIN-SUFFIX,huoshan.com,DIRECT
+# 豆包（字节旗下）
+DOMAIN-SUFFIX,doubao.com,DIRECT
